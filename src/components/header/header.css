@@ -57,13 +57,21 @@ header{
 }
 
 @media screen and (max-width: 1024px) {
-    header{
-        height: 68vh;
-    }
+   header {
+       margin-top: 6rem;
+   }
+
+   .header__socials, .scroll__down{
+       display: none;
+   }
 }
 @media screen and (max-width: 600px) {
-    header{
-        height: 100vh;
+    header {
+        margin-top: 0rem;
+    }
+
+    .header__container{
+        margin-bottom: 0;
     }
 
     .me{

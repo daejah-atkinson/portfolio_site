@@ -16,12 +16,13 @@
 .about__me img{
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transition: var(--transition);
+    
 }
 
 .about__me img:hover {
     transform: rotate(0);
-    transition: var(--transition);
+    transform: rotate(10deg);
 }
 
 .about__cards {
@@ -67,6 +68,10 @@
 
 .about__content {
     text-align: center;
+}
+
+.about__content a {
+    padding: 5px;
 }
 
 @media screen and (max-width: 1024px) {

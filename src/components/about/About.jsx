@@ -28,10 +28,10 @@ const About = () => {
               </article>
             </div>
 
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, at tenetur hic ut laudantium ad mollitia architecto sit facilis officiis voluptatibus? Fuga quaerat ab, explicabo ea repellat earum velit voluptatum.
+            <p> Hello! My name is Daejah Atkinson, I'm based in Charlotte, North Carolina. I graduated with a Bachelor of Science in Exercise Science from the University of North Carolina at Charlotte and have worked in healthcare for over seven years. Recently I decided to pursue a career in technology and attended General Assembly's Software Engineering Immersive Program where I learned fullstack development in the industry's most in-demand technologies. If you're looking for a highly motivated individual to join your team please reach out. 
             </p>
 
-            <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+            <a href='#contact' className='btn btn-primary'>Contact Me</a>
             
           </div>
       </div>
